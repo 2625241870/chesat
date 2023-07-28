@@ -1,0 +1,7 @@
+name: BKchest
+version: '${project.version}'
+main: hi.boredguy25562.bkchest.BKchest
+api-version: 1.13
+commands:
+  bkchest:
+    usage: /bkchest
