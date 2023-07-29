@@ -1,0 +1,15 @@
+gailu: 60.0
+baodi: 1
+zuida: 10
+world: "world"
+maxradius: 1000
+##最大生成到多远。
+YStartAt: 0
+##从y轴的什么位置开始生成
+Items:
+  -
+   item: iron_ingot
+   name: "铁锭"
+   weight: 10
+   description:
+     - "a iron ingot"
