@@ -6,6 +6,8 @@ maxradius: 1000
 ##最大生成到多远。
 YStartAt: 0
 ##从y轴的什么位置开始生成
+search: 15
+##找寻墙壁的范围，如果XX格之内找不到就不生成
 Items:
   -
    item: iron_ingot
@@ -13,3 +15,10 @@ Items:
    weight: 10
    description:
      - "a iron ingot"
+  -
+    item: iron_ingot
+    name: "null"
+    weight: 30
+    namespace_id: "myItem:item"
+    description:
+      - "a"

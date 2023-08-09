@@ -7,6 +7,7 @@ public class BKitem {
     ItemStack itemStack;
     double weight;
     boolean isIA=false;
+    String IAname;
     public BKitem(Material item) {
         itemStack = new ItemStack(item);
     }

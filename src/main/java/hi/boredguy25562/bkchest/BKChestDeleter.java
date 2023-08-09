@@ -9,7 +9,7 @@ import java.util.Objects;
 public class BKChestDeleter implements Runnable {
     @Override
     public void run() {
-        HashMap<String, Long> map =BKchest.instance.chestMap;
+        HashMap<String, Long> map = (HashMap<String, Long>) BKchest.instance.chestMap.clone();
         for (String key : BKchest.instance.chestMap.keySet()) {
             if (System.currentTimeMillis() - BKchest.instance.chestMap.get(key) >= 300000) {
                 String[] strings = StaticFunction.unTurn(key);
